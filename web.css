@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.img1{
+  height: 25rem;
+  margin: 1rem;
+
+}
+
+.imgp{
+  text-align: center;
+}
+.btn-bd-secondary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: rgb(245, 243, 228);
+
+}
+button:hover{
+  background-color: white;
+  color: white;
+}
+@media screen and (max-width: 980px) {
+  html,body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 320px) {
+   .ov{
+    margin-left: -7px;
+    
+   
+  }
+}
+
+
